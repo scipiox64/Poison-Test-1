@@ -3,6 +3,8 @@ Hello, completely new here trying to learn C# and Unity, here is a little Poison
 
 https://connect.unity.com/p/poisontest
 
+https://answers.unity.com/questions/1675746/poison-script-working-but-how-do-i-properly-stack.html
+
 I have 3 questions:
 
 1. How can I properly stack this effect? If the bolt repeatedly hits player while the poison script is running, the health subtraction instances will stack,  but once the first instance returns "_is poisoned" to default (false), then all the instances are stopped, even if they have just begun.
