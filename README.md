@@ -9,7 +9,7 @@ I have 3 questions:
 
 1. How can I properly stack this effect? If the bolt repeatedly hits player while the poison script is running, the health subtraction instances will stack,  but once the first instance returns "_is poisoned" to default (false), then all the instances are stopped, even if they have just begun.
 
- 2. If I set a "Use Antidote" button to SpaceBar, how should I go about making an antidote that would terminate all running instances of this effect?
+ 2. If I set a "Use Antidote" button to SpaceBar, how should I go about making an antidote that would terminate all running instances of this effect? Just set _isPoisoned to false on space down?
 
  3. How would you clean up and condense this further?
 
